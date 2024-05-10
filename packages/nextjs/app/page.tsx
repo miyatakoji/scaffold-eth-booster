@@ -15,28 +15,32 @@ const Home: NextPage = () => {
         <div className="px-5">
           <h1 className="text-center">
             <span className="block text-2xl mb-2">Welcome to</span>
-            <span className="block text-4xl font-bold">Scaffold-ETH 2</span>
+            <span className="block text-4xl font-bold">Scaffold-ETH Booster</span>
           </h1>
           <div className="flex justify-center items-center space-x-2">
             <p className="my-2 font-medium">Connected Address:</p>
             <Address address={connectedAddress} />
           </div>
-          <p className="text-center text-lg">
+          {/* <p className="text-center text-lg">
             Get started by editing{" "}
             <code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
               packages/nextjs/app/page.tsx
             </code>
-          </p>
-          <p className="text-center text-lg">
-            Edit your smart contract{" "}
-            <code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
-              YourContract.sol
-            </code>{" "}
-            in{" "}
-            <code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
-              packages/hardhat/contracts
-            </code>
-          </p>
+          </p> */}
+          <section id="tutorials" className="section">
+            <h2>Tutorials</h2>
+            <p>Earn tokens while you learn.</p>
+          </section>
+
+          <section id="about" className="section">
+            <h2>About This Project</h2>
+            <p>Integrating learning with rewards.</p>
+          </section>
+
+          <section id="contact" className="section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, please reach out.</p>
+          </section>
         </div>
 
         <div className="flex-grow bg-base-300 w-full mt-16 px-8 py-12">
